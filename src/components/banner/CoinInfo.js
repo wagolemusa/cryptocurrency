@@ -70,7 +70,7 @@ const CoinInfo = ({ coin }) => {
                         />
                     ):(
                     <>
-                 
+{/*                  
                     <Line data={{
 
                             labels: historicalData.map(( coin ) => {
@@ -97,7 +97,7 @@ const CoinInfo = ({ coin }) => {
                                 },
                             },
                         }}    
-                    />
+                    /> */}
                     <div style={{ display: "flex",
                                 marginTop: 20,
                                 justifyContent: "space-around",

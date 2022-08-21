@@ -46,6 +46,7 @@ const Header = () => {
                 <Container>
                     <Toolbar>
                         <Typography className={classes.title}>Crypto Hunter</Typography>
+                        
                         <Select variant='outlined' style={{
                             width: 100,
                             height: 40,
