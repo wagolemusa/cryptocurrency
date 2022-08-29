@@ -21,12 +21,9 @@ const useStyles = makeStyles({
         margin: 5,
     }
 })
+
 const SelectButton = ({ children, selected, onClick }) => {
-    
-
-
    const classes = useStyles();
-
     return (
 
         <div 
