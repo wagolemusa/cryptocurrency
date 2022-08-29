@@ -1,13 +1,12 @@
 import { CircularProgress, createTheme, makeStyles, ThemeProvider } from '@material-ui/core';
 import axios from 'axios';
 import React, {useEffect, useState, useRef} from 'react'
-import { Line } from 'react-chartjs-2';
 import { HistoricalChart } from '../../config/api';
 import { chartDays } from '../../config/data';
 import { CryptoState } from '../../CryptoContext';
 import SelectButton from '../SelectButton';
-import { Chart } from 'react-chartjs-2';
-import { Chart as ChartJS, LineController, LineElement, PointElement, LinearScale, Title } from 'chart.js';
+// import { Chart } from 'react-chartjs-2';
+// import { Chart as ChartJS, LineController, LineElement, PointElement, LinearScale, Title } from 'chart.js';
 
 
 const useStyles = makeStyles((theme) => ({
